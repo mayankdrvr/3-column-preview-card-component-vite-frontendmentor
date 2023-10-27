@@ -1,6 +1,9 @@
 // src/App.jsx
 
 import './App.css';
+import sedans from './assets/icon-sedans.svg'
+import suvs from './assets/icon-suvs.svg'
+import luxury from './assets/icon-luxury.svg'
 
 
 // const containerProperties = {
@@ -42,7 +45,7 @@ function App() {
       <main className="container">
         <h1 hidden>Car Types</h1>
         <section className="container__one container--properties">
-          <img src="./assets/icon-sedans.svg" alt="" className="container__one__image container--image" />
+          <img src={sedans} alt="" className="container__one__image container--image" />
           <h2 className="container__heading">Sedans</h2>
           <p className="container__description">Choose a sedan for its affordability and excellent fuel economy. Ideal for
             cruising in the city
@@ -50,7 +53,7 @@ function App() {
           <a href="#" className="container__button">Learn More</a>
         </section>
         <section className="container__two container--properties">
-          <img src="./assets/icon-suvs.svg" alt="" className="container__two__image container--image" />
+          <img src={suvs} alt="" className="container__two__image container--image" />
           <h2 className="container__heading">
             SUVs
           </h2>
@@ -61,7 +64,7 @@ function App() {
           <a href="#" className="container__button">Learn More</a>
         </section>
         <section className="container__three container--properties">
-          <img src="./assets/icon-luxury.svg" alt="" className="container__three__image container--image" />
+          <img src={luxury} alt="" className="container__three__image container--image" />
           <h2 className="container__heading">Luxury</h2>
           <p className="container__description">
             Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
