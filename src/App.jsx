@@ -40,7 +40,7 @@ function App() {
   return (
     <div>
       <main className="container">
-        <h1 aria-label="No Heading"></h1>
+        <h1></h1>
         <section className="container__one container--properties">
           <img src="./assets/icon-sedans.svg" alt="" className="container__one__image container--image" />
           <h2 className="container__heading">Sedans</h2>
